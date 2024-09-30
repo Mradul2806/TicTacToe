@@ -1,5 +1,5 @@
 *{
-    color: #d90707;
+    color: #964B00;
     font-family: sans-serif;
     transition: 0.2s ease-in-out;
     user-select: none;
@@ -12,7 +12,7 @@
 }
 
 body{
-    background-color: #00246B;
+    background-color: #eeb76e;
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -52,7 +52,7 @@ body{
     left: 0;
     width: 85px;
     height: 40px;
-    background-color: #c5e9fb;
+    background-color: #b4e2f9;
     z-index: -1;
 }
 
@@ -60,28 +60,34 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    height: 250px;
-    width: 250px;
+    height: 260px;
+    width: 260px;
     margin: 30px auto;
     border: 2px solid #000000;
 }
 
 .box{
     cursor: pointer;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     font-weight: 700;
     border: 2px solid #000;
 }
 
 .box:hover{
-    background-color: #c5e9fb99;
+    background-color: #addff8bf;
+}
+
+#results{
+    font-size: 1.8rem;
+    color: #d90707;
 }
 
 #play-again{
-    background-color: #c5e9fb;
+    margin-top: -10px;
+    background-color: #c5e9fba3;
     padding: 10px 25px;
     border: none;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
@@ -90,7 +96,7 @@ body{
 
 #play-again:hover{
     padding: 10px 40px;
-    background-color: #c5e9fb99;
-    color: #d90707;
+    font-size: 2rem;
+    color: #964B00;
     font-weight: bold;
 }

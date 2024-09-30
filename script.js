@@ -44,7 +44,7 @@ function cheakWin(){
 
             for(j = 0; j<3; j++){
                 boxes[winConditions[i][j]].style.backgroundColor = "#c5e9fb99"
-                boxes[winConditions[i][j]].style.color = "#000"
+                boxes[winConditions[i][j]].style.color = "#d90707"
             }
         }
     }
@@ -75,6 +75,6 @@ document.querySelector("#play-again").addEventListener("click", ()=>{
     boxes.forEach(e =>{
         e.innerHTML = "";
         e.style.removeProperty("background-color");
-        e.style.color = "#fff"
+        e.style.color = "#964B00"
     })
 })
